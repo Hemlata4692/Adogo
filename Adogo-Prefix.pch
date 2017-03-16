@@ -1,0 +1,32 @@
+//
+//  Adogo-Prefix.pch
+//  Adogo
+//
+//  Created by Ranosys on 19/04/16.
+//  Copyright © 2016 Sumit. All rights reserved.
+//
+
+#ifndef Adogo_Prefix_pch
+#define Adogo_Prefix_pch
+
+#import "AppDelegate.h"
+#import "Webservice.h"
+#import "BSKeyboardControls.h"
+#import "UIPlaceHolderTextView.h"
+#import "UITextField+Validations.h"
+#import "UITextView+Validations.h"
+#import "UserDefaultManager.h"
+#import "NullValueChecker.h"
+#import "NSString+CustomString.h"
+#import "UIFont+MyCustomFont.h"
+#import "AdogoViewController.h"
+#import "GlobalBackViewController.h"
+#import "UIView+RoundedCorner.h"
+#import <UIImageView+AFNetworking.h>
+#import "UIImage+UIImage_fixOrientation.h"
+#define myDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Adogo_Prefix_pch */
